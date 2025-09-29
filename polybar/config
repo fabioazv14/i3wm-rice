@@ -1,0 +1,76 @@
+[bar/mybar]
+width = 100%
+height = 30
+background = #222222
+foreground = #ffffff
+border-size = 4pt
+border-color = #00000000
+corner-radius = 10
+font-0 = "FiraCode Nerd Font:size=12"
+
+padding-right = 2
+padding-left = 2
+module-margin-right = 6
+
+
+
+modules-left = i3
+modules-center = 
+modules-right = cpu memory date pulseaudio battery
+
+[colors]
+background = #222222
+foreground = #ffffff
+primary = #ff79c6
+
+[module/i3]
+type = internal/i3
+format = <label-state>
+label-focused = %name%
+label-focused-foreground = #50fa7b
+
+[module/cpu]
+type = internal/cpu
+format = <label>
+label = CPU: %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 5
+format = <label>
+label = RAM: %percentage_used:%%
+
+[module/date]
+type = internal/date
+interval = 5
+date = "%a %b %d"
+time = %H:%M
+format = <label>
+label = %time%  %date%
+
+[module/battery]
+type = internal/battery
+full-at = 100
+low-at = 10
+battery = BAT1
+adapter = ACAD
+poll-interval = 5
+label = 
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_12_00.3.analog-stereo
+use-ui-max = true
+interval = 5
+
+#format-volume: <ramp-volume> <label-volume>
+
+#label-volume = %percentage%%
+#label-muted = "muted"
+
+#label-muted = muted
+#label-muted-foreground = #666
+#ramp-volume-0 = "0"
+#ramp-volume-1 = "1"
+#ramp-volume-2 = "2"
+
