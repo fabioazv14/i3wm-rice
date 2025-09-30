@@ -39,7 +39,7 @@ exec_always --no-startup-id feh --bg-fill ~/Documents/wallpaper.png
 # Gaps
 gaps inner 15
 gaps outer 10
-
+gaps top 40
 
 
 

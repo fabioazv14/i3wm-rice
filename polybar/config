@@ -1,18 +1,23 @@
 [bar/mybar]
-width = 100%
+top = false
+bottom = false
+width = 95%
 height = 30
+radius = 8
 background = #222222
 foreground = #ffffff
-border-size = 4pt
-border-color = #00000000
-corner-radius = 10
+border-size = 2pt
+border-color = #412dad
 font-0 = "FiraCode Nerd Font:size=12"
 
 padding-right = 2
 padding-left = 2
 module-margin-right = 6
 
-
+offset-y = 8
+offset-x = 2.5%
+override-redirect = true
+wm-restack = i3
 
 modules-left = i3
 modules-center = 
