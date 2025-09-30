@@ -55,7 +55,20 @@ low-at = 10
 battery = BAT1
 adapter = ACAD
 poll-interval = 5
-label = 
+format-charging = ⚡<label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = <ramp-capacity> <label-full>
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full = %percentage%%
+
+ramp-capacity-0 = 󰁺
+ramp-capacity-1 = 󰁻
+ramp-capacity-2 = 󰁾
+ramp-capacity-3 = 󰂀
+ramp-capacity-4 = 󰁹
+
+
 
 [module/pulseaudio]
 type = internal/pulseaudio
