@@ -34,9 +34,11 @@ format = <label-state>
 label-focused = %name%
 label-focused-foreground = #222222
 label-focused-background = #9385ff
+label-focused-padding = 2
 label-unfocused = %name%
 label-unfocused-foregound = #9385ff
 label-unfocused-background = #222222
+label-unfocused-padding = 2
 
 
 [module/cpu]
