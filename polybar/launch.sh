@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-# Mata qualquer Polybar que esteja a correr
+# kill any running polybar
 killall -q polybar
 
-# Espera até fechar totalmente
+# wait till its closed
 while pgrep -x polybar >/dev/null; do sleep 0.1; done
 
-# Inicia a barra
+# run bar
 polybar rightbar &
 polybar leftbar &
 polybar middlebar &
+
