@@ -7,4 +7,6 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 0.1; done
 
 # Inicia a barra
-polybar mybar &
+polybar rightbar &
+polybar leftbar &
+polybar middlebar &
