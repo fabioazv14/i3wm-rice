@@ -44,7 +44,7 @@ offset-x = 2.5%
 override-redirect = true
 wm-restack = i3
 
-modules-left = workspaces
+modules-left = powermenu workspaces
 modules-center =
 modules-right =
 
@@ -176,3 +176,9 @@ ramp-volume-2 = 
 
 
 click-right = pavucontrol
+
+
+[module/powermenu]
+type = custom/text
+content = "º"
+click-left = ~/.config/polybar/scripts/powermenu.sh
