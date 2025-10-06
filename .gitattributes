@@ -1,3 +1,25 @@
-*.json linguist-language=JSON
-*.sh linguist-language=Shell
-*.rasi linguist-language=CSS
+# temp & cache 
+*.swp linguist-vendored
+*.swo linguist-vendored
+*.bak linguist-vendored
+*.pyc linguist-vendored
+
+
+*.sh linguist-language=Shell  
+*.json linguist-language=JSON   
+*.jsonc linguist-language=JSON
+*.rasi linguist-language=CSS      
+*.toml linguist-language=Toml       
+*.conf linguist-language=INI
+*.ini linguist-language=INI
+*.desktop linguist-language=Ini
+
+
+*.py linguist-language=Python
+*.lua linguist-language=Lua
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.h linguist-language=C
+*.hh linguist-language=C++
+*.hpp linguist-language=C++
+
