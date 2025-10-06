@@ -15,7 +15,7 @@
 *.desktop linguist-language=Ini
 
 
-*.py linguist-language=Python
+*.py linguist-vendored
 *.lua linguist-language=Lua
 *.c linguist-language=C
 *.cpp linguist-language=C++
