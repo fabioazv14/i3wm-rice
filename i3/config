@@ -34,7 +34,7 @@ exec --no-startup-id xinput set-prop "ELAN06FA:00 04F3:327E Touchpad" "libinput 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Background
-exec_always --no-startup-id feh --bg-fill ~/Documents/wallpaper.png
+exec_always --no-startup-id feh --bg-fill ~/Documents/3257640.jpg
 
 # Gaps
 gaps inner 15
