@@ -1,0 +1,41 @@
+{
+    "type": "splith",
+    "percent": 0.5,
+    "nodes": [
+        {
+            "type": "splitv",
+            "percent": 1,
+            "nodes": [
+                {
+                    "type": "con",
+                    "percent": 0.6,
+                    "swallows": [{"title": "Fastfetch"}]
+                },
+                {
+                    "type": "con",
+                    "percent": 0.4,
+                    "swallows": [{"title": "Ranger"}]
+                }
+            ]
+        },
+        {
+            "type": "splitv",
+            "percent": 1,
+            "nodes": [
+                {
+                    "type": "splith",
+                    "percent": 0.5,
+                    "nodes": [
+                        {"type": "con", "percent": 0.5, "swallows": [{"title": "Peaclock"}]},
+                        {"type": "con", "percent": 0.5, "swallows": [{"title": "CMatrix"}]}
+                    ]
+                },
+                {
+                    "type": "con",
+                    "percent": 0.5,
+                    "swallows": [{"title": "RightBottom"}]
+                }
+            ]
+        }
+    ]
+}

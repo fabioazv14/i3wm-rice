@@ -47,6 +47,10 @@ for_window [class=".*"] border pixel 4
 # Powermenu shortcut
 bindsym $mod+Shift+p exec ~/.config/polybar/scripts/powermenu.sh
 
+# Auto start
+exec --no-startup-id ~/.config/i3/autostart.sh
+
+
 
 # ------------------------------------------------------
 
