@@ -4,7 +4,7 @@
 options=" Shutdown\n Reboot\n Logout"
 
 # rofi
-chosen=$(echo -e "$options" | rofi -dmenu -i -p "Power")
+chosen=$(echo -e "$options" | rofi -dmenu -i -p "Power" -theme solarized)
 
 # execute
 case "$chosen" in

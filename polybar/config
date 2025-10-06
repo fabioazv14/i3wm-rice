@@ -180,5 +180,6 @@ click-right = pavucontrol
 
 [module/powermenu]
 type = custom/text
-content = "º"
+content = ""
 click-left = ~/.config/polybar/scripts/powermenu.sh
+
