@@ -19,7 +19,7 @@ font pango:monospace 8
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 
-
+# ------------------- CUSTOM --------------------------
 
 # Keyboard PT-PT
 exec_always --no-startup-id setxkbmap pt
@@ -41,11 +41,14 @@ gaps inner 15
 gaps outer 10
 gaps top 40
 
-# Bordas finas
+# Thin borders
 for_window [class=".*"] border pixel 4
 
+# Powermenu shortcut
+bindsym $mod+Shift+p exec ~/.config/polybar/scripts/powermenu.sh
 
 
+# ------------------------------------------------------
 
 
 
