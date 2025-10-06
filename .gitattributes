@@ -1,0 +1,4 @@
+* linguist-vendored
+*.json linguist-language=JSON
+*.sh linguist-language=Shell
+*.rasi linguist-language=CSS
