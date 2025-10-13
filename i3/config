@@ -50,6 +50,13 @@ bindsym $mod+Shift+p exec ~/.config/polybar/scripts/powermenu.sh
 # Auto start
 exec --no-startup-id ~/.config/i3/autostart.sh
 
+# Prints
+bindsym Print exec flameshot gui -p ~/Pictures/Screenshots --clipboard
+
+# Brightness
+bindsym $mod+XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym $mod+XF86MonBrightnessDown exec brightnessctl set 5%-
+
 
 
 # ------------------------------------------------------
